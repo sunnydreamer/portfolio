@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    background-color: #000000;
+}
+
+a {
+    margin: 5px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    color: #ffcc00;
+}
+
+footer {
+    padding: 50px;
+}
+
+form {
+    width: 50%;
+    padding-bottom: 40px;
+    margin: auto;
+    border: 2px #999999 solid;
+}
+
+h3 {
+    margin-top: 10px;
+    font-style: italic;
+    color: #e7d381;
+    text-decoration: underline;
+}
+
+li {
+    font-size: large;
+}
+
+input {
+    margin-top: 8px;
+    width: 50%;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: #999999 1px solid;
+    text-align: center;
+}
+
+textarea {
+    margin-top: 8px;
+    width: 60%;
+    resize: none;
+}
+
+th {
+    font-size: large;
+    color: #000000;
+    background-color: #999999;
+}
+
+tr {
+    height: 30px;
+}
+
+.absolute {
+    position: absolute;
+    bottom: 45%;
+    right: 110px;
+    padding: 25px;
+    color: #ffffff;
+    font-size: 15px;
+    background: #0260a8;
+    border-radius: 5px;
+}
+
+.backgroundpic {
+    width: 100%;
+    height: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.container {
+    margin: 0 100px;
+    padding: 20px;
+}
+
+.desc {
+    padding-top: 10px;
+    text-decoration: underline;
+}
+
+.first {
+    padding-top: 130px;
+    padding-bottom: 70px;
+}
+
+.flexbox-container {
+    display:flex;
+    justify-content: center;
+    padding:30px;
+}
+
+.flexbox-item {
+    min-width:300px;
+    height:300px;
+}
+
+.gallery {
+    display: inline-block;
+    padding: 20px;
+}
+
+.gallerypic {
+    height: 300px;
+    margin: 20px;
+}
+
+.line {
+    height: 2px;
+    width: 70%;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #999999;
+}
+
+.navbar {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    padding: 20px 0px;
+    background-color: rgb(46, 46, 46);
+}
+
+.portrait {
+    width: 20%;
+}
+
+.question {
+    padding-top: 30px;
+}
+
+.relative {
+    position: relative;
+    height: 450px;
+    margin: 30px 0;
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    background: #eedc94;
+}
+
+span {
+    text-transform: uppercase;
+    color: rgb(238, 87, 27);
+}
+
+.submit {
+    height: 50px;
+    width: 100px;
+    margin-top: 35px;
+    color: white;
+    font-size: large;
+    background: #0260a8;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.submit:hover {
+    margin-top: 35px;
+    height: 50px;
+    width: 100px;
+    color: #ffcc00;
+    background: #016ABC;
+    border-radius: 10px;
+}
+
+#yellow {
+    margin: 0;
+    color: #000000;
+    background-color: #eedc94;
+}
